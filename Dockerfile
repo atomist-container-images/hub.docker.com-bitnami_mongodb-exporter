@@ -1,12 +1,15 @@
-# Tags: latest, 0.32.0-debian-10-r6, 0.32.0, 0-debian-10, 0
+# Tags: latest, 0.32.0-debian-10-r7, 0.32.0, 0-debian-10, 0
 FROM bitnami/mongodb-exporter:latest
-FROM bitnami/mongodb-exporter:0.32.0-debian-10-r6
+FROM bitnami/mongodb-exporter:0.32.0-debian-10-r7
 FROM bitnami/mongodb-exporter:0.32.0
 FROM bitnami/mongodb-exporter:0-debian-10
 FROM bitnami/mongodb-exporter:0
 
 # Tags: _
 FROM bitnami/mongodb-exporter:_
+
+# Tags: 0.32.0-debian-10-r6
+FROM bitnami/mongodb-exporter:0.32.0-debian-10-r6
 
 # Tags: 0.32.0-debian-10-r5
 FROM bitnami/mongodb-exporter:0.32.0-debian-10-r5
